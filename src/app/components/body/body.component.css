@@ -1,0 +1,239 @@
+
+.container {
+    padding: 10px 10%;
+}
+
+#about{
+    padding: 20px 0;
+    color:rgb(201, 235, 201);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.aboutCol1{
+    flex-basis: 35%;
+    margin-top: 123px;
+}
+.aboutCol1 img {
+    background-image: linear-gradient(rgb(29, 26, 26), rgb(128, 125, 125));
+    top: 20px;
+    width: 80%;
+    border-radius: 10   px;
+    margin-left: 140px;
+}
+.aboutCol2{
+    flex-basis: 60%;
+}
+.subtitle{
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.tab-titles{
+    display: flex;
+    margin: 30px 0 30px;   
+}
+
+.links {
+    margin-right: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+.links::after{
+    content: '';
+    width: 0;
+    height: 3px;    
+    background: rgb(4, 248, 4);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.3s;   
+}
+.links:hover{
+    color:rgba(201, 235, 201, 0.795)
+}
+.links.active::after{
+    width: 50%;
+}
+.tab-content ul li{
+    list-style: none;
+    margin-left: -20px;
+    margin: 8px 0;
+}
+.tab-content ul li span{
+    color: #53f05b;
+    font-size: 15px;
+    margin-left: -40px;
+}
+.tab-content{
+    display:none;
+}
+.tab-content.active-tab{
+    display: block;
+}
+.logo{
+    margin-left: 500px;
+    border: #f5faf4 1px solid;
+    margin-top: -10px;
+    display: flex;
+    width: 60px;
+    height: 30px;
+    border-radius: 5%;
+}
+.logo:hover{
+    transform: scale(3);
+    transition: 0.5s;
+}
+
+/*--------------------PROGRESS BARS---------------------------*/
+.progress-bar{
+    background: rgb(65, 62, 66);
+    width: 300px;
+    height: 9px;
+    border-radius: 5px;
+    margin-left: -40px;
+}
+.progress-bar div{
+    height: 9px;
+    border-radius: 5px;
+    width: 0%;
+}
+/*--------------------(OPCIONAL) Circulo pointer barra---------------------------
+.progress-bar div span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #222;
+    float:right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+}*/
+
+
+
+/*--------------------HABILIDADES---------------------------*/
+
+
+.Resolucion{
+    background:#34f703;
+    animation: Resolucion 1s linear forwards;
+}
+.iniciativa{
+    background:#34f703;
+    animation: iniciativa 1s linear forwards;
+}
+.Empatia{
+    background:#34f703;
+    animation: Empatia 1s linear forwards;
+}
+.comunication{
+    background:#34f703;
+    animation: comunication 1s linear forwards;
+}
+.SCRUM{
+    background:#34f703;
+    animation: SCRUM 1s linear forwards;
+}
+.Office{
+    background:#34f703;
+    animation: Office 1s linear forwards;
+}
+
+
+/*--------------------LENGUAJES---------------------------*/
+
+.html{
+    background:#34f703;
+    animation: html 1s linear forwards;
+}
+.CSS{
+    background:#34f703;
+    animation: CSS3 1s linear forwards;
+}
+.Angular{
+    background:#34f703;
+    animation: Angular 1s linear forwards;
+}
+.MySQL{
+    background:#34f703;
+    animation: MySQL 1s linear forwards;
+}
+.React{
+    background:#34f703;
+    animation: React 1s linear forwards;
+}
+.Python{
+    background:#34f703;
+    animation: Python 1s linear forwards;
+}
+
+
+@keyframes html{
+    100%{
+        width: 86%;
+    }
+}
+@keyframes CSS3{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes Angular{
+    100%{
+        width: 58%;
+    }
+}
+@keyframes MySQL{
+    100%{
+        width: 73%;
+    }
+}
+@keyframes React{
+    100%{
+        width: 50%;
+    }
+}
+@keyframes Python{
+    100%{
+        width: 56%;
+    }
+}
+
+@keyframes Resolucion{
+    100%{
+        width: 90%;
+    }
+}
+@keyframes iniciativa{
+    100%{
+        width: 78%;
+    }
+}
+@keyframes Empatia{
+    100%{
+        width: 85%;
+    }
+}
+@keyframes comunication{
+    100%{
+        width: 95%;
+    }
+}
+@keyframes SCRUM{
+    100%{
+        width: 60%;
+    }
+}
+@keyframes Office{
+    100%{
+        width: 59%;
+    }
+}

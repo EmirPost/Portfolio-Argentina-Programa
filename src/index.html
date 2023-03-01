@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <app-root></app-root>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/55b30a62d4.js" crossorigin="anonymous"></script>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+      </style>
+     
+     
+     <!----------Menu about ----------->
+     
+      <script>
+        var tablinks = document.getElementsByClassName("links")
+        var tabcontents = document.getElementsByClassName("tab-content")
+        function openTab(tabName){
+            for (tablink of tablinks){
+                tablink.classList.remove("active");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active");
+            document.getElementById(tabName).classList.add("active-tab")
+        }
+    </script>
+    <title>PortfolioWebArg</title>
+    <app-root></app-root>
+</head>
+<body>
