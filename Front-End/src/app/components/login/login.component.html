@@ -1,0 +1,16 @@
+<div class="login-container">
+    <button id="login" (click)="toggleLogin()">Login</button>
+  
+    <div *ngIf="showLogin" class="login-form">
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+  
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+  
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  

@@ -1,0 +1,43 @@
+.login-container {
+    background-color:transparent;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  button {
+    margin-top: -50px;
+    margin-left: 50%;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover{
+    color: rgb(9, 223, 9);
+  }
+form{  
+        position: absolute;
+        top: 66px;
+        right: 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(8, 68, 8, 0.384));
+        color: #fff;
+        padding: 20px;
+        border-radius: 5px; 
+}
+#submit{
+    margin-right: -60px;
+    margin-top: 8px;
+}
+  

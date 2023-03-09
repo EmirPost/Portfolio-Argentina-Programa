@@ -9,6 +9,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { ProyectosComponent } from './components/body/proyectos/proyectos.component';
 import { FooterComponent } from './components/body/footer/footer.component';
 import { SnakeComponent } from './components/body/proyectos/snake/snake.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   imports: [
@@ -29,6 +30,7 @@ import { SnakeComponent } from './components/body/proyectos/snake/snake.componen
     ProyectosComponent,
     FooterComponent,
     SnakeComponent,
+    LoginComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],

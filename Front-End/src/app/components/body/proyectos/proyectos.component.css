@@ -31,7 +31,7 @@
     margin-left: -40px;
     width: 100%;
     height: 0%;
-    background-image:  linear-gradient(rgba(7, 190, 16, 0.877), rgba(48, 64, 207, 0.521));
+    background-image:  linear-gradient(rgba(7, 190, 16, 0.877), rgba(0, 0, 0, 0.300));
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -97,3 +97,24 @@
     font-weight: 400;
     transition: 0.2s;
 }
+
+
+
+/*--------------------------Cambiar color layer proyectos-------------------------------
+
+#ecommerce{
+    background-image:  linear-gradient(rgba(153, 7, 190, 0.877), rgba(12, 25, 48, 0.521));
+}
+#crypto{
+    background-image:  linear-gradient(rgba(7, 147, 190, 0.877), rgba(253, 255, 255, 0.521));
+}
+#SCRUM{
+    background-image:  linear-gradient(rgba(102, 255, 0, 0.877), rgba(255, 0, 255, 0.767));
+}
+
+*/
+
+
+
+
+
