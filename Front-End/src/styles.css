@@ -1,19 +1,7 @@
-/*------------------------------PALETA DE COLORES----------------------------
-
-Fondo oscuro 
-#000
-
-Textos blancos 
-#FFF
-
- Destacados en verde 
-#0bd804
-
-*/
 body {
     margin: 0;
     overflow-x: hidden;
-    background-color: black;
+    background-image:linear-gradient(#222, rgb(0, 0, 0));
   }
   
   html, body {
