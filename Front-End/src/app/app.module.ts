@@ -10,6 +10,9 @@ import { ProyectosComponent } from './components/body/proyectos/proyectos.compon
 import { FooterComponent } from './components/body/footer/footer.component';
 import { SnakeComponent } from './components/body/proyectos/snake/snake.component';
 import { LoginComponent } from './components/login/login.component';
+import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
@@ -21,7 +24,9 @@ import { LoginComponent } from './components/login/login.component';
       "showTitle": true,
       "showUnits": false,
       "showBackground": true
-    })
+    }),
+    HttpClientModule,
+    FormsModule
   ],
   declarations: [
     AppComponent,
@@ -31,6 +36,7 @@ import { LoginComponent } from './components/login/login.component';
     FooterComponent,
     SnakeComponent,
     LoginComponent,
+    HomeComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
